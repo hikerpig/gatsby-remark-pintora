@@ -1,11 +1,8 @@
 {
   "name": "gatsby-remark-pintora",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Add diagrams using pintora and server-rendering",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -14,8 +11,13 @@
   ],
   "author": "hikerpig",
   "license": "MIT",
+  "homepage": "https://github.com/hikerpig/gatsby-remark-pintora",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hikerpig/gatsby-remark-pintora.git"
+  },
   "dependencies": {
     "@pintora/cli": "^0.1.0-alpha.12",
-    "unist-util-visit": "2"
+    "unist-util-visit": "^2"
   }
 }

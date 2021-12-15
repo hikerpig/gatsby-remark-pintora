@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@pintora/cli': ^0.1.0-alpha.12
-  unist-util-visit: '2'
+  unist-util-visit: ^2
 
 dependencies:
   '@pintora/cli': 0.1.0-alpha.12
