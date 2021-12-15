@@ -1,11 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@pintora/cli': ^0.1.0-alpha.12
+  '@pintora/cli': ^0.1.0-alpha.13
   unist-util-visit: ^2
 
 dependencies:
-  '@pintora/cli': 0.1.0-alpha.12
+  '@pintora/cli': 0.1.0-alpha.13
   unist-util-visit: 2.0.3
 
 packages:
@@ -107,13 +107,13 @@ packages:
       - supports-color
     dev: false
 
-  /@pintora/cli/0.1.0-alpha.12:
-    resolution: {integrity: sha512-87DUv5aPc0EoWGxIv1PLmqW7ZnkKldviEYlhSb7cUERPed3NzLK/p4lY4v/B+2D812/Z1URIgPbZCNuV7qND2Q==}
+  /@pintora/cli/0.1.0-alpha.13:
+    resolution: {integrity: sha512-elP6nHBWbQf4YWUhjjH9cIKGDf+Y1cUKIn9goh6Gy+cnyCz3AjRgnCme6CJXibBXC6+0QuNMkK76925xLQzxqQ==}
     hasBin: true
     dependencies:
       '@pintora/core': 0.1.0-alpha.11
-      '@pintora/renderer': 0.1.0-alpha.11
-      '@pintora/standalone': 0.1.0-alpha.12
+      '@pintora/renderer': 0.1.0-alpha.13
+      '@pintora/standalone': 0.1.0-alpha.13
       canvas: 2.8.0
       consola: 2.15.3
       jsdom: 16.7.0_canvas@2.8.0
@@ -140,8 +140,8 @@ packages:
       lodash-es: 4.17.21
     dev: false
 
-  /@pintora/diagrams/0.1.0-alpha.12:
-    resolution: {integrity: sha512-aPHJfrkhqUFnBIv2Vycwsvcq24AQOSmh57o2aAe37cBu0lhtytkoQpGUTF0XRQPb9pfJ5YgSvsHDHNlWWv5TgQ==}
+  /@pintora/diagrams/0.1.0-alpha.13:
+    resolution: {integrity: sha512-PjoWZhACtloOS4D6IJOe97AddlfnF6uOZDg7baTw0ExwOMtA0A4gyWoWq1kQQV7mC9lm0vE3MLfnsM+pHCBtXA==}
     dependencies:
       '@pintora/core': 0.1.0-alpha.11
       '@pintora/dagre': 0.10.0-alpha.0
@@ -156,8 +156,8 @@ packages:
       lodash-es: 4.17.21
     dev: false
 
-  /@pintora/renderer/0.1.0-alpha.11:
-    resolution: {integrity: sha512-gTv//fDVnvL5L7gJSIW0aE924PZyC7slDG1B7ZFyWMnHvcwv2UmIDYfPRQ2oR/Rgu7k2hwbO8WHiJImFuDRB2Q==}
+  /@pintora/renderer/0.1.0-alpha.13:
+    resolution: {integrity: sha512-VuXC9H7FtzD3EN2YBPkR+5HvTbi1i4kNdpW8J0jxYXIsbc10n1PrWinuJ0efCWRMFrI4xscW8aIn8jIsIvKBgw==}
     dependencies:
       '@antv/g-canvas': 0.5.12
       '@antv/g-svg': 0.5.6
@@ -165,12 +165,12 @@ packages:
       '@types/node': 14.18.0
     dev: false
 
-  /@pintora/standalone/0.1.0-alpha.12:
-    resolution: {integrity: sha512-ObeTT+AnMar9mjXmGwYfEVzQ6QGj6RkZ3VsumK5gsyeXk5k7GujIgRUQdMHUnwl43Df3QYv04XW8TAYR48Ud6A==}
+  /@pintora/standalone/0.1.0-alpha.13:
+    resolution: {integrity: sha512-m4r5YcCZ342tBaVXuL0bMxwHG+vfQfyI/KcGOFguRhjTEJrT/ez6YkLNyEhVZoY+SM28/VXy8sraiQ+9MuaFFA==}
     dependencies:
       '@pintora/core': 0.1.0-alpha.11
-      '@pintora/diagrams': 0.1.0-alpha.12
-      '@pintora/renderer': 0.1.0-alpha.11
+      '@pintora/diagrams': 0.1.0-alpha.13
+      '@pintora/renderer': 0.1.0-alpha.13
     dev: false
 
   /@tootallnate/once/1.1.2:

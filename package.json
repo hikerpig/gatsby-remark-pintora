@@ -17,7 +17,7 @@
     "url": "https://github.com/hikerpig/gatsby-remark-pintora.git"
   },
   "dependencies": {
-    "@pintora/cli": "^0.1.0-alpha.12",
+    "@pintora/cli": "^0.1.0-alpha.13",
     "unist-util-visit": "^2"
   }
 }
