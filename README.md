@@ -5,6 +5,8 @@
 
 This plugin adds diagrams using [pintora](https://github.com/hikerpig/pintora) during server-side rendering. So you don't have to include a runtime dependency of pintora.
 
+Pintora is faster than Mermaid.js in CLI, since you don't have to start a headless browser to generate images.
+
 ### 🏠 [Homepage](https://github.com/hikerpig/gatsby-remark-pintora)
 
 ## Install
@@ -54,6 +56,10 @@ activityDiagram
   :Make beautiful and structured diagrams;
   end
 ```
+
+And it will be replaced with inline svg:
+
+![output example](https://i.imgur.com/eturtfo.jpg)
 
 ## Author
 
