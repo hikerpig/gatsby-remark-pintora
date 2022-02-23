@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/hikerpig/gatsby-remark-pintora/compare/v0.2.0-beta.0...v0.2.0) (2022-02-23)
+
+
+### Features
+
+* bump @pintora/cli to 0.2.0 ([2081062](https://github.com/hikerpig/gatsby-remark-pintora/commit/208106221b325b8c8288cde77fed0bc2a7d654d7))
+
 # [0.2.0-beta.0](https://github.com/hikerpig/gatsby-remark-pintora/compare/v0.1.0...v0.2.0-beta.0) (2022-02-06)
 
 
