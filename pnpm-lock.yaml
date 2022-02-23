@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@pintora/cli': ^0.1.0-alpha.27
+  '@pintora/cli': ^0.2.0
   unist-util-visit: ^2
 
 dependencies:
   unist-util-visit: 2.0.3
 
 devDependencies:
-  '@pintora/cli': 0.1.0-alpha.27
+  '@pintora/cli': 0.2.0
 
 packages:
 
@@ -96,6 +96,16 @@ packages:
     resolution: {integrity: sha512-dujNs0HxCSsGruxwhE+WLPcHZMDvmxsOJXcnY0rOjVnWcJFUJaIN2xbEMmGZywLdw6PRE72yymVGf2mAtrbm8Q==}
     dev: true
 
+  /@hikerpig/nearley/2.21.0-beta.0:
+    resolution: {integrity: sha512-vmv55KoccCul30mPvnqqvlj2GV61i5Jh2cLOGG03R+7x//DZnxKZdfr4G16aKoZPeThGvayRbjxUFxzWsB/UuA==}
+    hasBin: true
+    dependencies:
+      commander: 2.20.3
+      moo: 0.5.1
+      railroad-diagrams: 1.0.0
+      randexp: 0.4.6
+    dev: true
+
   /@mapbox/node-pre-gyp/1.0.7:
     resolution: {integrity: sha512-PplSvl4pJ5N3BkVjAdDzpPhVUPdC73JgttkR+LnBx2OORC1GCQsBjUeEuipf9uOaAM1SbxcdZFfR3KDTKm2S0A==}
     hasBin: true
@@ -113,13 +123,13 @@ packages:
       - supports-color
     dev: true
 
-  /@pintora/cli/0.1.0-alpha.27:
-    resolution: {integrity: sha512-KNDLJj4Xc4vZYG6Q9DrY784kaJ/R6orMTGWAPoNerqg+H8F5NerFG0dj5qoRTcc3acIjSMwAz++AlIxwdCG9eA==}
+  /@pintora/cli/0.2.0:
+    resolution: {integrity: sha512-n62l8fccb+AsK8zUFKsSYL9OY/Z4WpwjURvCDCfE1bDbS5dg1zz/r2CnqU8oZpr4N7zAZsmbs25/QbvAHX00tg==}
     hasBin: true
     dependencies:
-      '@pintora/core': 0.1.0-alpha.25
-      '@pintora/renderer': 0.1.0-alpha.25
-      '@pintora/standalone': 0.1.0-alpha.27
+      '@pintora/core': 0.2.0
+      '@pintora/renderer': 0.1.3
+      '@pintora/standalone': 0.2.0
       canvas: 2.8.0
       consola: 2.15.3
       jsdom: 16.7.0_canvas@2.8.0
@@ -131,8 +141,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@pintora/core/0.1.0-alpha.25:
-    resolution: {integrity: sha512-ThhdYW52sV8UShV49cUtRCxSQkewQkpLmXSFh+QfaaflTySRnQWpj1nIEPF9aEI50+C/8nKzFUT3NzFfVL5lzQ==}
+  /@pintora/core/0.2.0:
+    resolution: {integrity: sha512-t0DMDghVIuGRh7keR3JmXOp2jI8YjIhCx+blC7huh70BJ7NR/HIP2jrok0pX5gvtaU1uZUPyyurSBe26GZMWCA==}
     dependencies:
       '@antv/matrix-util': 3.0.4
       '@types/node': 14.18.0
@@ -148,15 +158,16 @@ packages:
       lodash-es: 4.17.21
     dev: true
 
-  /@pintora/diagrams/0.1.0-alpha.27:
-    resolution: {integrity: sha512-E8qiMYHyMAvGWbWBaj19MUZFR1AT2nTgRSl9lI1zR15UCHmBAOnbJwHKPzvA9pUjtW9DY4kaq3RwMoypLTH0kQ==}
+  /@pintora/diagrams/0.2.0:
+    resolution: {integrity: sha512-d56C2Pb0y5aMEvuRC7hAXVQDPdbQ/5n5uH9AtA2l0Uz6/p7qlnCJK+pIRsdq7QPHA3CorrrlBVfgPr7oqTVgqQ==}
     dependencies:
       '@hikerpig/moo': 0.5.2-beta.2
-      '@pintora/core': 0.1.0-alpha.25
+      '@hikerpig/nearley': 2.21.0-beta.0
+      '@pintora/core': 0.2.0
       '@pintora/dagre': 0.10.0
       '@pintora/graphlib': 2.2.2
       d3-shape: 3.1.0
-      nearley: 2.20.1
+      dedent: 0.7.0
     dev: true
 
   /@pintora/graphlib/2.2.2:
@@ -166,21 +177,21 @@ packages:
       lodash-es: 4.17.21
     dev: true
 
-  /@pintora/renderer/0.1.0-alpha.25:
-    resolution: {integrity: sha512-HhvhoW3G0GY4Y1BmjHl8/+/wBzASbnBdrRrGBDY9g0plgpKsjq3tbbqG+D+U4pnDmRAwjUPpAc6SkSIaBJEOYQ==}
+  /@pintora/renderer/0.1.3:
+    resolution: {integrity: sha512-w2Jy53Zrbo7dvsN+g9OJIxpkDAq6nRwiSL027rs7MfEoKdtL80gW7KHRmhSMndCIiDhPdLU6tVQS6Pd65F3OcQ==}
     dependencies:
       '@antv/g-canvas': 0.5.12
       '@antv/g-svg': 0.5.6
-      '@pintora/core': 0.1.0-alpha.25
+      '@pintora/core': 0.2.0
       '@types/node': 14.18.0
     dev: true
 
-  /@pintora/standalone/0.1.0-alpha.27:
-    resolution: {integrity: sha512-oaRHiqQjbv1G0Kh/Cqrbf1G+KpkW45L7kdMdH9X121cPWsVa+ZlX1LpGeCYF3wZOorY/VuxByzU+2Uk2796Odg==}
+  /@pintora/standalone/0.2.0:
+    resolution: {integrity: sha512-BviwkJ7sXJ10QS/5pzGQicpmf2cCsqMXJQQOU8Lmmq3uwS8x63aqtFAk6IdYpiMpkYuoKKWJL/O7MdBo5KYtvA==}
     dependencies:
-      '@pintora/core': 0.1.0-alpha.25
-      '@pintora/diagrams': 0.1.0-alpha.27
-      '@pintora/renderer': 0.1.0-alpha.25
+      '@pintora/core': 0.2.0
+      '@pintora/diagrams': 0.2.0
+      '@pintora/renderer': 0.1.3
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -436,6 +447,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       mimic-response: 2.1.0
+    dev: true
+
+  /dedent/0.7.0:
+    resolution: {integrity: sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=}
     dev: true
 
   /deep-is/0.1.4:
@@ -777,16 +792,6 @@ packages:
 
   /nan/2.15.0:
     resolution: {integrity: sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==}
-    dev: true
-
-  /nearley/2.20.1:
-    resolution: {integrity: sha512-+Mc8UaAebFzgV+KpI5n7DasuuQCHA89dmwm7JXw3TV43ukfNQ9DnBH3Mdb2g/I4Fdxc26pwimBWvjIw0UAILSQ==}
-    hasBin: true
-    dependencies:
-      commander: 2.20.3
-      moo: 0.5.1
-      railroad-diagrams: 1.0.0
-      randexp: 0.4.6
     dev: true
 
   /node-fetch/2.6.6:
