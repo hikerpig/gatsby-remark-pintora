@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-pintora",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Add diagrams using pintora and server-rendering",
   "main": "index.js",
   "keywords": [

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/hikerpig/gatsby-remark-pintora/compare/v0.2.0...v0.3.0) (2022-04-26)
+
+
+### Features
+
+* upgrade dep pintora cli to ^0.4.0 ([d063a7f](https://github.com/hikerpig/gatsby-remark-pintora/commit/d063a7f97ce17afd89a93e56415cb4f3b23e20e8))
+
 ## [0.2.0](https://github.com/hikerpig/gatsby-remark-pintora/compare/v0.2.0-beta.0...v0.2.0) (2022-02-23)
 
 
