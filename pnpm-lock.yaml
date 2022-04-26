@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@pintora/cli': ^0.2.0
+  '@pintora/cli': ^0.4.0
   unist-util-visit: ^2
 
 dependencies:
   unist-util-visit: 2.0.3
 
 devDependencies:
-  '@pintora/cli': 0.2.0
+  '@pintora/cli': 0.4.2
 
 packages:
 
@@ -123,13 +123,13 @@ packages:
       - supports-color
     dev: true
 
-  /@pintora/cli/0.2.0:
-    resolution: {integrity: sha512-n62l8fccb+AsK8zUFKsSYL9OY/Z4WpwjURvCDCfE1bDbS5dg1zz/r2CnqU8oZpr4N7zAZsmbs25/QbvAHX00tg==}
+  /@pintora/cli/0.4.2:
+    resolution: {integrity: sha512-OmAnWXCp9aruFb4kO8Ivp0l8VX9+j3eh9bvnS5ZtOgqfsnCkDJ5cW1eJPyJshL/1UpvNl+4sfRAZDT5RKEkRfg==}
     hasBin: true
     dependencies:
-      '@pintora/core': 0.2.0
-      '@pintora/renderer': 0.1.3
-      '@pintora/standalone': 0.2.0
+      '@pintora/core': 0.4.0
+      '@pintora/renderer': 0.4.0
+      '@pintora/standalone': 0.4.2
       canvas: 2.8.0
       consola: 2.15.3
       jsdom: 16.7.0_canvas@2.8.0
@@ -141,8 +141,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@pintora/core/0.2.0:
-    resolution: {integrity: sha512-t0DMDghVIuGRh7keR3JmXOp2jI8YjIhCx+blC7huh70BJ7NR/HIP2jrok0pX5gvtaU1uZUPyyurSBe26GZMWCA==}
+  /@pintora/core/0.4.0:
+    resolution: {integrity: sha512-pesz14poHmaLAMjmpoReH4itcAjeUWiB5s8/3zTu0d/9ZHto0nriUp+G2GjjDMF7zoEDgNDNUVk5D0lv4WidkA==}
     dependencies:
       '@antv/matrix-util': 3.0.4
       '@types/node': 14.18.0
@@ -151,22 +151,26 @@ packages:
       tinycolor2: 1.4.2
     dev: true
 
-  /@pintora/dagre/0.10.0:
-    resolution: {integrity: sha512-e7YIvzpByr9gxfCQhh5Ko/De9QrYP/TY4BVT1vqj/mVWbJpoAe9CFBRUg7vWZ7YokJO928wscBJ0weM0ibUk6Q==}
+  /@pintora/dagre/0.10.7:
+    resolution: {integrity: sha512-8ybSOnpBd5+sPPa/xDdgQ1CooJF28eqroQaevPlTcnRqeM5BJIj1etLgsKuWweR8VEj0CGUvruwqv+AfIcvxWQ==}
     dependencies:
       '@pintora/graphlib': 2.2.2
       lodash-es: 4.17.21
     dev: true
 
-  /@pintora/diagrams/0.2.0:
-    resolution: {integrity: sha512-d56C2Pb0y5aMEvuRC7hAXVQDPdbQ/5n5uH9AtA2l0Uz6/p7qlnCJK+pIRsdq7QPHA3CorrrlBVfgPr7oqTVgqQ==}
+  /@pintora/diagrams/0.4.2:
+    resolution: {integrity: sha512-qYfjXFKhCvPm8R0wQT2YDkqDYhFrLWBHa5pmTxBc9csX7DDmcV33SrdF6rjA3vPIQ78uYW38TUMvsG40Bbkh2w==}
     dependencies:
       '@hikerpig/moo': 0.5.2-beta.2
       '@hikerpig/nearley': 2.21.0-beta.0
-      '@pintora/core': 0.2.0
-      '@pintora/dagre': 0.10.0
+      '@pintora/core': 0.4.0
+      '@pintora/dagre': 0.10.7
       '@pintora/graphlib': 2.2.2
+      d3-interpolate: 3.0.1
+      d3-scale: 4.0.2
       d3-shape: 3.1.0
+      d3-time: 3.0.0
+      dayjs: 1.11.1
       dedent: 0.7.0
     dev: true
 
@@ -177,21 +181,21 @@ packages:
       lodash-es: 4.17.21
     dev: true
 
-  /@pintora/renderer/0.1.3:
-    resolution: {integrity: sha512-w2Jy53Zrbo7dvsN+g9OJIxpkDAq6nRwiSL027rs7MfEoKdtL80gW7KHRmhSMndCIiDhPdLU6tVQS6Pd65F3OcQ==}
+  /@pintora/renderer/0.4.0:
+    resolution: {integrity: sha512-p+U7X8ceCSu6eMx+YWFk0yGqpFQpFfJvQdcpn2jaPfp9kC0Zo8DIBmpUyoQRGMmzJ91zeCgkDXUYCpJv2wdDgw==}
     dependencies:
       '@antv/g-canvas': 0.5.12
       '@antv/g-svg': 0.5.6
-      '@pintora/core': 0.2.0
+      '@pintora/core': 0.4.0
       '@types/node': 14.18.0
     dev: true
 
-  /@pintora/standalone/0.2.0:
-    resolution: {integrity: sha512-BviwkJ7sXJ10QS/5pzGQicpmf2cCsqMXJQQOU8Lmmq3uwS8x63aqtFAk6IdYpiMpkYuoKKWJL/O7MdBo5KYtvA==}
+  /@pintora/standalone/0.4.2:
+    resolution: {integrity: sha512-jeLfQG/0t62u1bRfDGlkDUJgER92kPr0kXPVs8ergurFu5ZovRS9c/3c0rXSBCpOwKf5AwytFKPGP58FMTpb5w==}
     dependencies:
-      '@pintora/core': 0.2.0
-      '@pintora/diagrams': 0.2.0
-      '@pintora/renderer': 0.1.3
+      '@pintora/core': 0.4.0
+      '@pintora/diagrams': 0.4.2
+      '@pintora/renderer': 0.4.0
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -387,6 +391,13 @@ packages:
     resolution: {integrity: sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==}
     dev: true
 
+  /d3-array/3.1.6:
+    resolution: {integrity: sha512-DCbBBNuKOeiR9h04ySRBMW52TFVc91O9wJziuyXw6Ztmy8D3oZbmCkOO3UHKC7ceNJsN2Mavo9+vwV8EAEUXzA==}
+    engines: {node: '>=12'}
+    dependencies:
+      internmap: 2.0.3
+    dev: true
+
   /d3-color/1.4.1:
     resolution: {integrity: sha512-p2sTHSLCJI2QKunbGb7ocOh7DgTAn8IrLx21QRc/BSnodXM4sv6aLQlnfpvehFMLZEfBc6g9pH9SWQccFYfJ9Q==}
     dev: true
@@ -395,8 +406,20 @@ packages:
     resolution: {integrity: sha512-lx14ZPYkhNx0s/2HX5sLFUI3mbasHjSSpwO/KaaNACweVwxUruKyWVcb293wMv1RqTPZyZ8kSZ2NogUZNcLOFQ==}
     dev: true
 
+  /d3-format/3.1.0:
+    resolution: {integrity: sha512-YyUI6AEuY/Wpt8KWLgZHsIU86atmikuoOmCfommt0LYHiQSPjvX2AcFc38PX0CBpr2RCyZhjex+NS/LPOv6YqA==}
+    engines: {node: '>=12'}
+    dev: true
+
   /d3-interpolate/1.4.0:
     resolution: {integrity: sha512-V9znK0zc3jOPV4VD2zZn0sDhZU3WAE2bmlxdIwwQPPzPjvyLkd8B3JUVdS1IDUFDkWZ72c9qnv1GK2ZagTZ8EA==}
+    dependencies:
+      d3-color: 1.4.1
+    dev: true
+
+  /d3-interpolate/3.0.1:
+    resolution: {integrity: sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==}
+    engines: {node: '>=12'}
     dependencies:
       d3-color: 1.4.1
     dev: true
@@ -406,11 +429,36 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /d3-scale/4.0.2:
+    resolution: {integrity: sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      d3-array: 3.1.6
+      d3-format: 3.1.0
+      d3-interpolate: 3.0.1
+      d3-time: 3.0.0
+      d3-time-format: 4.1.0
+    dev: true
+
   /d3-shape/3.1.0:
     resolution: {integrity: sha512-tGDh1Muf8kWjEDT/LswZJ8WF85yDZLvVJpYU9Nq+8+yW1Z5enxrmXOhTArlkaElU+CTn0OTVNli+/i+HP45QEQ==}
     engines: {node: '>=12'}
     dependencies:
       d3-path: 3.0.1
+    dev: true
+
+  /d3-time-format/4.1.0:
+    resolution: {integrity: sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==}
+    engines: {node: '>=12'}
+    dependencies:
+      d3-time: 3.0.0
+    dev: true
+
+  /d3-time/3.0.0:
+    resolution: {integrity: sha512-zmV3lRnlaLI08y9IMRXSDshQb5Nj77smnfpnd2LrBa/2K281Jijactokeak14QacHs/kKq0AQ121nidNYlarbQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      d3-array: 3.1.6
     dev: true
 
   /d3-timer/1.0.10:
@@ -424,6 +472,10 @@ packages:
       abab: 2.0.5
       whatwg-mimetype: 2.3.0
       whatwg-url: 8.7.0
+    dev: true
+
+  /dayjs/1.11.1:
+    resolution: {integrity: sha512-ER7EjqVAMkRRsxNCC5YqJ9d9VQYuWdGt7aiH2qA5R5wt8ZmWaP2dLUSIK6y/kVzLMlmh1Tvu5xUf4M/wdGJ5KA==}
     dev: true
 
   /debug/4.3.3:
@@ -639,6 +691,11 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
+  /internmap/2.0.3:
+    resolution: {integrity: sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==}
+    engines: {node: '>=12'}
+    dev: true
+
   /is-fullwidth-code-point/3.0.0:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
@@ -842,7 +899,7 @@ packages:
     dev: true
 
   /parse5/6.0.1:
-    resolution: {integrity: sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==}
+    resolution: {integrity: sha1-4aHAhcVps9wIMhGE8Zo5zCf3wws=}
     dev: true
 
   /path-is-absolute/1.0.1:
@@ -869,7 +926,7 @@ packages:
     dev: true
 
   /randexp/0.4.6:
-    resolution: {integrity: sha512-80WNmd9DA0tmZrw9qQa62GPPWfuXJknrmVmLcxvq4uZBdYqb1wYoKTmnlGUchvVWe0XiLupYkBoXVOxz3C8DYQ==}
+    resolution: {integrity: sha1-6YatXl4x2uE93W97MBmqfIf2DKM=}
     engines: {node: '>=0.12'}
     dependencies:
       discontinuous-range: 1.0.0

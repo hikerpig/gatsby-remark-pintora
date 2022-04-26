@@ -14,7 +14,7 @@ Pintora is faster than Mermaid.js in CLI, since you don't have to start a headle
 In your gatsby project:
 
 ```sh
-npm install --save gatsby-remark-pintora
+npm install --save gatsby-remark-pintora @pintora/cli
 ```
 
 ## How to Use

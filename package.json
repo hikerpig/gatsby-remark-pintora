@@ -20,9 +20,9 @@
     "unist-util-visit": "^2"
   },
   "devDependencies": {
-    "@pintora/cli": "^0.2.0"
+    "@pintora/cli": "^0.4.0"
   },
   "peerDependencies": {
-    "@pintora/cli": "^0.2.0"
+    "@pintora/cli": "^0.4.0"
   }
 }
